@@ -23,6 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  techNotes,
+  mobileApp,
+  imageResizer,
+  youtubeClone,
 } from "../assets";
 
 export const navLinks = [
@@ -172,7 +176,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Rust proved me wrong.",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -180,7 +184,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "I've never met a web developer who truly cares about their clients' success like Rust does.",
     name: "Chris Brown",
     designation: "COO",
     company: "DEF Corp",
@@ -188,7 +192,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "After Rust optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
     company: "456 Enterprises",
@@ -198,9 +202,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "TechNotes",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Your one-stop-shop for small company employee note management and a robust authentication system.",
     tags: [
       {
         name: "react",
@@ -211,54 +215,62 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "express",
         color: "pink-text-gradient",
       },
+      {
+        name: "node",
+        color: "blue-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: techNotes,
+    source_code_link: "https://github.com/newman-afk/techNotes-frontend.git",
+    demo_link: "https://fuhuahu-technotes.onrender.com/",
   },
   {
-    name: "Job IT",
+    name: "ProNef",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Experience seamless mobile browsing with our React Native app.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: mobileApp,
+    source_code_link: "https://github.com/newman-afk/react-native-first.git",
+    demo_link: "https://fuhuahu-react-native-taste.netlify.app/",
+  },
+  {
+    name: "Image Resizer",
+    description: "Your go-to desktop app for quickly resizing images.",
+    tags: [
+      {
+        name: "electron",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: imageResizer,
+    source_code_link: "https://github.com/newman-afk/electron.git",
+    demo_link: "https://github.com/newman-afk/electron#readme",
+  },
+  {
+    name: "YouTube Clone",
+    description:
+      "Personalize your YouTube experience with our customizable website.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "material-ui",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: youtubeClone,
+    source_code_link: "https://github.com/newman-afk/YouTube-clone.git",
+    demo_link: "https://fuhuahu-youtube-clone.netlify.app/",
   },
 ];
 

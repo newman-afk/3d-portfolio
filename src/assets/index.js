@@ -1,9 +1,11 @@
-import logo from "./logo.svg";
+import logo from "./logo.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import laptopSolid from "./laptop-solid.svg";
+import laptop from "./laptop.jpg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -29,6 +31,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import techNotes from "./techNotes.png";
+import mobileApp from "./mobileApp.png";
+import imageResizer from "./imageresizer.png";
+import youtubeClone from "./youtube-clone.png";
 
 export {
   logo,
@@ -37,6 +43,8 @@ export {
   mobile,
   web,
   github,
+  laptopSolid,
+  laptop,
   menu,
   close,
   css,
@@ -59,4 +67,8 @@ export {
   carrent,
   jobit,
   tripguide,
+  techNotes,
+  imageResizer,
+  youtubeClone,
+  mobileApp,
 };
